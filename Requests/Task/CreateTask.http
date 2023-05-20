@@ -4,6 +4,5 @@ POST {{host}}/tasks
 Content-Type: application/json
 
 {
-    "name": "testing",
-    "completed": true
+    "name": ""
 }

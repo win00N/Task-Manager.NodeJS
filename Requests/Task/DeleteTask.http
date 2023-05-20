@@ -1,3 +1,4 @@
 @host=http://localhost:3000/api/v1
+@id=64663c6fc9c1716d6ab22b87
 
-DELETE {{host}}/tasks/peter
+DELETE {{host}}/tasks/{{id}}

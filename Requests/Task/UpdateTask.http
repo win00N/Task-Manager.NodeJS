@@ -1,3 +1,10 @@
 @host=http://localhost:3000/api/v1
+@id=6466371d63aacb1552d7b39d
 
-PATCH {{host}}/tasks/123
+PATCH {{host}}/tasks/{{id}}
+Content-Type: application/json
+
+{
+    "name": "testing0",
+    "completed": false
+}
